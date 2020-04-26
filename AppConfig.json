@@ -1,0 +1,10 @@
+{
+    "PORT":3500,
+    "Environment":"./Configs/Configuration.local.json",
+    "TokenSecret": "This is the password used for the key that will be used to sign the tokens. The server signing password needs to be at least 16 chars and should be stored safely, not in a json file as here. This is just an example. Use for example user-secrets or azure key vault.",
+    "ApiURI":"https://localhost:44316/api/",
+    "AppKey": "0e7qXCCDOauT7YfOlLqO9gLhqy7hyEm5jkhQuuf3SpLuJpkjiPHaIPOcSYAjFeOJ",
+    "RejectUnauthorized": false,
+    "KingsonsApi": "https://localhost:44316/Api/"
+    
+}
