@@ -33,7 +33,7 @@ app.use(function (err, req, res, next) {
   }
 });
 
-app.post('/api/GetData', authenticateToken, function (req, res) {
+app.post('/api/Call', authenticateToken, function (req, res) {
   //console.log(req.body);
   //console.log(req.user);
   //res.send('hello world');
